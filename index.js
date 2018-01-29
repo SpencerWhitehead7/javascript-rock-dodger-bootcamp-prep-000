@@ -104,7 +104,6 @@ function moveDodger(e) {
    * if the right arrow is pressed. (Check the constants
    * we've declared for you above.)
    * And be sure to use the functions declared below!*/
-  // document.addEventListener('keydown', function(e){
     if(e.which===LEFT_ARROW){
       e.preventDefault();
       e.stopPropagation();
@@ -115,7 +114,6 @@ function moveDodger(e) {
       e.stopPropagation();
       moveDodgerRight();
     }
-  // });
 }
 
 function moveDodgerLeft() {
