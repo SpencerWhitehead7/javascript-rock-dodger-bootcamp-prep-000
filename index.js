@@ -94,7 +94,7 @@ function endGame() {
     ROCKSS[i].remove();
     }
   window.removeEventListener('keydown', moveDodger);
-  alert("You're 100 years too early to dodge DEEZ rocks!");
+  alert("YOU LOSE!");
 }
 
 function moveDodger(e) {
