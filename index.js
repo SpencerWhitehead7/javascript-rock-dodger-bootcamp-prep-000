@@ -126,7 +126,7 @@ function moveDodgerLeft() {
    */
   let left = positionToInteger(dodger.style.left);
   if(left>0){
-    dodger.style.left = `${left -= 4}px`; //should be -=4
+    dodger.style.left = `${left -= 4}px`;
   }
 }
 
@@ -138,7 +138,7 @@ function moveDodgerRight() {
    */
   var right = positionToInteger(dodger.style.left)+40;
   if(right<400){
-    dodger.style.left = `${right -= 36}px`; //should be -=36
+    dodger.style.left = `${right -= 36}px`;
   }
 }
 
